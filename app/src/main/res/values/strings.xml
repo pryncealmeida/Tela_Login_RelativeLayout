@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tela_Login_RelativeLayout</string>
+    <string name="ainda_n_o_cadastrado_cadastre_se">Ainda não é cadastrado? Cadastre-se!</string>
+    <string name="login">LOGIN</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
 </resources>

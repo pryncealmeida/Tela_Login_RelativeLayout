@@ -14,7 +14,8 @@
         android:layout_marginTop="170dp"
         android:background="#fff"
         android:textSize="20sp"
-        android:hint="Email" />
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
 
     <EditText
         android:id="@+id/et_senha"
@@ -24,7 +25,8 @@
         android:layout_marginTop="7dp"
         android:textSize="20sp"
         android:background="#fff"
-        android:hint="Senha" />
+        android:inputType="textPassword"
+        android:hint="@string/senha" />
 
     <Button
         android:id="@+id/btn_b1"
@@ -34,7 +36,7 @@
         android:layout_marginTop="11dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:textColor="#0AA87D"
         android:backgroundTint="#D1CDCD"
 
@@ -47,7 +49,7 @@
         android:layout_marginTop="50dp"
         android:gravity="center"
         android:textColor="#fff"
-        android:text="Ainda não é cadastrado?Cadastre-se!"
+        android:text="@string/ainda_n_o_cadastrado_cadastre_se"
 
         />
 
